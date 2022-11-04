@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+:root{
+    --bg-white: #fff;
+    --tx-black: #000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    width: 980px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    background: var(--bg-white);
+    transition: all 1s ease-in;
+}
+
+.main__header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__header h3, .main__header p{
+    font-size: 2rem;
+    /* font-family: 'Pacifico', cursive; */
+    color: var(--tx-black);
+    transition: all 1s ease-in;
+    cursor: pointer;
+}
+
+.main__content{
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+}
+
+.task__input{
+    width: 100%;
+}
+
+.form__group{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.form__group input{
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-bottom: 1px solid var(--tx-black);
+    outline: none;
+    transition: all 1s ease-in;
+    background-color: transparent;
+    font-size: 2rem;
+}
+
+.form__group input::placeholder{
+    color: lightgray;
+}
+
+.form__group button{
+    height: 60px;
+    border: none;
+    padding: 0 1.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: var(--bg-white);
+    transition: all 1s ease-in;
+    cursor: pointer;
+}
+
+.current__display{
+    margin-top: 2.5rem;
+    width: 100%;
+    border: 1px solid var(--tx-black);
+    transition: all 1s ease-in;
+    border-radius: 5px;
+    padding: 1.5rem .5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.current__display h6, .current__display p{
+    font-size: 1.2rem;
+    color: var(--tx-black);
+    transition: all 1s ease-in;
+}
+
+.current__display h6{
+    font-weight: 400;
+}
+
+.current__display p{
+    font-weight: lighter;
+}
+
+.task__display{
+    margin-top: 2.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.task__display h6, .task__display p{
+    font-size: 1.2rem;
+    color: var(--tx-black);
+    transition: all 1s ease-in;
+}
+
+.task__display h6{
+    font-weight: 400;
+}
+
+.list li{
+    font-size: 1.3rem;
+    padding: 1rem .5rem;
+    margin-bottom: 1rem;
+    color: var(--tx-black);
+    border: 1px solid var(--tx-black);
+    transition: all 1s ease-in;
+    border-radius: 5px;
+}
+
+.list li:hover{
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
