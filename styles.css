@@ -68,7 +68,7 @@ body{
 }
 
 .form__group input::placeholder{
-    color: lightgray;
+    color: lightgrey;
 }
 
 .form__group button{
